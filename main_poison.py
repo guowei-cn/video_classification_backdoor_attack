@@ -234,7 +234,7 @@ if __name__ == "__main__":
         False
     ]
     perturb_path_l = [
-        '/media/ssddati1/david/replay/alexnet_adv_tra_epoch_8_PGD_norm_inf_eps_0.01_iter_50.hdf5'
+        'perturbation/alexnet_adv_tra_epoch_8_PGD_norm_inf_eps_0.01_iter_50.hdf5'
     ]
 
     for (random_flag, perturb_path) in zip(random_flag_l, perturb_path_l):
